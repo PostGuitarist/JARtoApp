@@ -1,0 +1,5 @@
+#!/bin/sh
+DIR=$(cd "$(dirname "$0")"; pwd)
+cd "$DIR" #&& cd ../Resources
+export JAVA_HOME=jre
+jre/Contents/Home/bin/java -jar Compiled.jar
